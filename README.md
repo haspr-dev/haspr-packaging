@@ -1,26 +1,26 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/pbolt-dev/.github/main/assets/pbolt-logo.svg" alt="pbolt logo" width="160" height="160" />
+  <img src="https://raw.githubusercontent.com/haspr-dev/.github/main/assets/haspr-logo.svg" alt="Haspr logo" width="160" height="160" />
 </p>
 
-<h1 align="center">pbolt-packaging</h1>
+<h1 align="center">haspr-packaging</h1>
 
 <p align="center">
-  <strong>Distribution packaging scripts and Linux package builds for the pbolt ecosystem.</strong>
+  <strong>Distribution packaging scripts and Linux package builds for the Haspr ecosystem.</strong>
 </p>
 
 ---
 
 ## ⚡ Overview
 
-This repository contains configurations and test suites required to build, package, and verify **pbolt** for multiple Linux distributions (Debian, Ubuntu, RHEL, AlmaLinux, RockyLinux, openSUSE).
+This repository contains configurations and test suites required to build, package, and verify **Haspr** for multiple Linux distributions (Debian, Ubuntu, RHEL, AlmaLinux, RockyLinux, openSUSE).
 
-For more details on the pbolt ecosystem, visit [github.com/pbolt-dev](https://github.com/pbolt-dev).
+For more details on the Haspr ecosystem, visit [github.com/haspr-dev](https://github.com/haspr-dev).
 
 ---
 
 ## ⚖️ Trademark Notice
 
-*Passbolt is a registered trademark of Passbolt SA. **pbolt** is an independent community project and is not affiliated with, endorsed by, or sponsored by Passbolt SA.*
+*Passbolt is a registered trademark of Passbolt SA. **Haspr** is an independent community project and is not affiliated with, endorsed by, or sponsored by Passbolt SA.*
 
 ---
 
@@ -142,4 +142,4 @@ bundle exec kitchen login filesystem-benchmarks-debian-bookworm
 
 ## Modifying Test Environment
 
-To test public code, modify `tests/test_env.sh` to point to the pbolt/Passbolt API repository you want to package and test.
+To test public code, modify `tests/test_env.sh` to point to the Haspr/Passbolt API repository you want to package and test.
