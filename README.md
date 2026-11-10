@@ -1,8 +1,28 @@
-# Passbolt packaging repository
+<p align="center">
+  <img src="https://raw.githubusercontent.com/pbolt-dev/.github/main/assets/pbolt-logo.svg" alt="pbolt logo" width="160" height="160" />
+</p>
 
-This repository contains all the configurations required to package Passbolt for multiple Linux distributions.
+<h1 align="center">pbolt-packaging</h1>
 
-> ⚠️ Requires Passbolt 5.11 and onward.
+<p align="center">
+  <strong>Distribution packaging scripts and Linux package builds for the pbolt ecosystem.</strong>
+</p>
+
+---
+
+## ⚡ Overview
+
+This repository contains configurations and test suites required to build, package, and verify **pbolt** for multiple Linux distributions (Debian, Ubuntu, RHEL, AlmaLinux, RockyLinux, openSUSE).
+
+For more details on the pbolt ecosystem, visit [github.com/pbolt-dev](https://github.com/pbolt-dev).
+
+---
+
+## ⚖️ Trademark Notice
+
+*Passbolt is a registered trademark of Passbolt SA. **pbolt** is an independent community project and is not affiliated with, endorsed by, or sponsored by Passbolt SA.*
+
+---
 
 ## Requirements
 
@@ -21,7 +41,7 @@ bundle install
 
 Required variables:
 ```bash
-export PASSBOLT_FLAVOUR=pro        # or 'ce' for Community Edition
+export PASSBOLT_FLAVOUR=ce         # Community Edition
 export PASSBOLT_COMPONENT=stable   # release channel
 export PASSBOLT_VERSION=5.1.1      # version to test
 export API_CLONE_BRANCH=master     # API branch to test
@@ -122,4 +142,4 @@ bundle exec kitchen login filesystem-benchmarks-debian-bookworm
 
 ## Modifying Test Environment
 
-To test public code, modify `tests/test_env.sh` to point to the Passbolt API repository you want to package and test.
+To test public code, modify `tests/test_env.sh` to point to the pbolt/Passbolt API repository you want to package and test.
